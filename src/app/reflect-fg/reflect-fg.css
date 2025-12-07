@@ -1,0 +1,58 @@
+/* Page container */
+.reflection-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Title */
+.reflection-title {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #0d6efd;
+  margin-bottom: 5px;
+}
+
+/* Date */
+.reflection-date {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Section headers */
+.reflection-section h2 {
+  font-size: 1.4rem;
+  color: #0b4cad;
+  margin-bottom: 8px;
+}
+
+/* Paragraph text */
+.reflection-section p {
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Responsive (mobile) */
+@media (max-width: 768px) {
+  .reflection-container {
+    padding: 15px;
+  }
+
+  .reflection-title {
+    font-size: 1.8rem;
+  }
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
